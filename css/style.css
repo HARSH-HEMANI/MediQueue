@@ -1,0 +1,19 @@
+.penguin-logo {
+    width: 180px;
+    height: 50px;
+}
+
+.penguin-card-footer,
+.penguin-card-border {
+    background-color: white;
+    border: 0;
+}
+
+.penguin-btn {
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+}
+
+.footer-section {
+    color: black;
+}
