@@ -11,7 +11,29 @@
     <link rel="stylesheet" href="css/utils.css">
 
     <style>
+        .custom-card{
+            border: 2px solid rgb(224,216,216);
+            border-radius: 5px;
+            padding: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+        }
 
+        .row h3{
+            color: black;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .alert{
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        .badge{
+            display: flex;
+            justify-content: 20px;
+        }
     </style>
 </head>
 
