@@ -37,7 +37,7 @@ $password = $_POST['password'];
 
                 <!------ Home Button -->
                 <div class="option">
-                    <button class="btn btn-sm btn-primary mt-3 m-3" style="height: 35px; width: 80px; margin: 5px;"><a href="index.html">Home</a></button>
+                    <button class="btn btn-sm btn-primary mt-3 m-3" style="height: 35px; width: 80px; margin: 5px;"><a href="index.php">Home</a></button>
                 </div>
             </ul>
         </nav>
@@ -74,7 +74,7 @@ $password = $_POST['password'];
 
                         <div class="button">
                             <button type="submit" class="btn btn-sm btn-primary">Login</button>
-                            <a href="forgot-password.php">Forgot password?</a>
+                            <a href="forgot_password.php">Forgot password?</a>
                             <a href="registration.php">New Member?</a>
                         </div>
                     </div>

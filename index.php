@@ -18,7 +18,7 @@
 
 <body>
     <?php
-    require 'header.php';
+    require './partials/header.php';
     ?>
 
     <main>
@@ -27,7 +27,7 @@
             style="float: right; color: darkblue; margin-top: 150px; margin-right: 80px; font-size: 43px; text-align: center;">
             <b>Medical Services that<br>You can Trust 100%</b><br>
             <p style="font-size: 20px;"> Seamless Scheduling, Quality Care</p>
-            <button class="btn btn-sm btn-outline-primary m-3" onclick="window.location.href='login-book-appointment.php'" style="height: 35px; width: 160px; margin: 5px;">Book Appointment</button>
+            <button class="btn btn-sm btn-outline-primary m-3" onclick="window.location.href='login_book_appointment.php'" style="height: 35px; width: 160px; margin: 5px;">Book Appointment</button>
         </div>
     </main>
 
