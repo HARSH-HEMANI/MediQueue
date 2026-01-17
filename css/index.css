@@ -1,11 +1,10 @@
-/* ----header start----*/
-header {
+/* header-start */
+header{
     height: 13vh;
-    /*vh -- viewport height*/
 }
 
 nav {
-    background: #657166;
+    background-color: white;
     color: black;
 }
 
@@ -20,7 +19,7 @@ nav ul {
     align-content: center;
 }
 
-button a {
+button a{
     color: white;
 }
 
@@ -28,29 +27,28 @@ button a {
     height: 77px;
     width: 204px;
 }
+/* header-end */
 
-/* ----header end---- */
-
-/* ----main start---- */
+/* main-start */
 main {
     height: 90vh;
 }
 
 .picture img {
     width: 100vw;
-    height: 300px;
+    height: 380px;
 }
 
-nav ul .option button a {
+nav ul .option button a{
     text-decoration: none;
     color: blue;
 }
 
-nav ul .option button a:hover {
+nav ul .option button a:hover{
     color: white;
 }
 
-footer {
+footer{
     height: 18vh;
     color: white;
 }
@@ -58,35 +56,37 @@ footer {
 .contact {
     display: flex;
     background-color: red;
-}
+  }
 
-.contact .head {
+  .contact .head{
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+  }
 
-.contact .head p {
+  .contact .head p {
     text-align: center;
     font-size: 14px;
     padding: 12px 10px 1px 10px;
-}
+  }
 
-.contact ul {
+  .contact ul {
     display: flex;
     padding: 0px 0px;
-}
+  }
 
-.contact ul li {
+  .contact ul li {
     padding: 12px 80px 0px 80px;
     list-style: none;
     font-size: 13px;
-}
 
-.copyright {
+  }
+
+  .copyright {
     text-align: center;
     font-size: 13px;
     padding: 15px 0px 13px;
     background-color: #0d6efd;
-}
+  }
+
